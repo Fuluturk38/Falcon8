@@ -1,0 +1,4 @@
+select id, lastName, Email, AccountId from Contact
+select id,name,phone from Account where phone= null order by name
+select id, name from Contact where accountId =null
+select count() from Opportunity
